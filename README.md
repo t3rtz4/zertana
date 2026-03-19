@@ -23,13 +23,13 @@ Zertana is a CLI tool that spins up **isolated penetration testing labs** on you
 
 ## Features
 
-- **One command lab setup** — attacker + target, isolated network, ready to hack
-- **VulnHub integration** — browse and deploy any VulnHub machine via fuzzy search
-- **Official Kali QEMU image** — pre-built, no manual install required
-- **Linked QCOW2 clones** — base images are preserved; instances are disposable
-- **Isolated network** — VMs talk to each other, not your LAN
-- **Checksum verification** — downloaded images are verified before conversion
-- **Clean teardown** — `--destroy` removes VMs, disks, and network in one shot
+- **One command lab setup**   : attacker + target, isolated network, ready to hack
+- **VulnHub integration**     : browse and deploy any VulnHub machine via fuzzy search
+- **Official Kali QEMU image**: pre-built, no manual install required
+- **Linked QCOW2 clones**     : base images are preserved; instances are disposable
+- **Isolated network**        : VMs talk to each other, not your LAN
+- **Checksum verification**   : downloaded images are verified before conversion
+- **Clean teardown**          : `--destroy` removes VMs, disks, and network in one shot
 
 ---
 
@@ -73,7 +73,7 @@ sudo dnf install -y \
     virt-manager
 
 sudo systemctl enable --now libvirtd
-sudo usermod -aG libvirt,kvm $USER   # re-login after this
+sudo usermod -aG libvirt,kvm $USER   # relogin after this
 ```
 
 ---
@@ -81,7 +81,7 @@ sudo usermod -aG libvirt,kvm $USER   # re-login after this
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/zertana.git
+git clone https://github.com/t3rtz4/zertana.git
 cd zertana
 pip install .
 ```
@@ -90,7 +90,7 @@ pip install .
 
 ## Usage
 
-### Step 1 — Build the VulnHub database
+### Step 1: Build the VulnHub database
 
 Install and run [owleye](https://github.com/t3rtz4/owleye) to populate
 the machine database that Zertana reads from:
@@ -109,7 +109,7 @@ owleye --max-pages 5      # scrape first 5 pages only
 owleye --concurrency 8    # increase parallel requests
 ```
 
-### Step 2 — Deploy a lab
+### Step 2: Deploy a lab
 
 ```bash
 zertana
@@ -121,7 +121,7 @@ The interactive wizard will walk you through:
 3. Configuring RAM and vCPUs for each VM
 4. Confirming and deploying the blueprint
 
-### Step 3 — Tear down
+### Step 3: Tear down
 
 ```bash
 zertana --destroy <vm-name>         # destroy a target VM
