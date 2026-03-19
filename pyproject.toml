@@ -1,0 +1,19 @@
+[project]
+name = "zertana"
+authors = [
+	{ name = "T3rTz4", email = "rachidlamghari@proton.me" },
+]
+version = "0.1.0"
+description = "Zertana"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "inquirerpy>=0.3.4",
+    "libvirt-python>=12.1.0",
+    "psutil>=7.2.2",
+    "rich>=14.3.3",
+]
+
+[project.scripts]
+zertana = "zertana.cli:main"
