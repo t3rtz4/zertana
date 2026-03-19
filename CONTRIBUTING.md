@@ -52,7 +52,7 @@ There are many ways to help beyond writing code:
 ### Clone and install in editable mode
 
 ```bash
-git clone https://github.com/yourname/zertana.git
+git clone https://github.com/t3rtz4/zertana.git
 cd zertana
 python -m venv .venv
 source .venv/bin/activate
@@ -88,9 +88,9 @@ bloating an existing one.
 
 ## Submitting a Pull Request
 
-1. **Fork** the repository and create a branch from `main`:
+1. **Fork** the repository and create a branch from `master`:
    ```bash
-   git checkout -b feat/your-feature-name
+   git checkout -b feat/feature-name
    ```
 
 2. **Make your changes** — keep commits focused and atomic. One logical change
@@ -111,7 +111,7 @@ bloating an existing one.
    - disk.py handles direct VMDK download for static targets
    ```
 
-5. **Open a Pull Request** against `main` with:
+5. **Open a Pull Request** against `master` with:
    - A description of what the PR does and why
    - Steps to test it
    - Any known limitations or follow up work

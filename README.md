@@ -189,7 +189,7 @@ zertana/
 
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR.
 
-Bug reports and feature requests → [GitHub Issues](https://github.com/yourname/zertana/issues)
+Bug reports and feature requests → [GitHub Issues](https://github.com/t3rtz4/zertana/issues)
 
 ---
 
