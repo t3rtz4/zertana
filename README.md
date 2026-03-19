@@ -1,13 +1,13 @@
-# Zertana 🦉
+# Zertana
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-blue)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)](https://kernel.org/)
 [![owleye](https://img.shields.io/badge/companion-owleye-blueviolet)](https://github.com/t3rtz4/owleye)
 
-> Your personal CTF lab builder — powered by KVM/QEMU
+> Your personal CTF lab builder powered by KVM/QEMU
 
-Zertana is a CLI tool that spins up **isolated penetration testing labs** on your local machine using KVM/libvirt. Pick a VulnHub target, optionally deploy a Kali attack box, and get hacking — all on a private sandboxed network, in minutes.
+Zertana is a CLI tool that spins up **isolated penetration testing labs** on your local machine using KVM/libvirt. Pick a VulnHub target, optionally deploy a Kali attack box, and get hacking, all on a private sandboxed network, in minutes.
 
 ```
 ███████╗███████╗██████╗ ████████╗█████╗ ███╗   ██╗█████╗
