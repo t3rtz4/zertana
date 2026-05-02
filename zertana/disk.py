@@ -14,7 +14,7 @@ IMAGES_DIR     = Path("/var/lib/libvirt/images/zertana_labs")
 CHUNK_SIZE     = 8192
 QEMU_TIMEOUT   = 300
 SUPPORTED_FMTS = {"OVA", "VMDK"}
-KALI_QEMU_URL  = "https://cdimage.kali.org/current/kali-linux-2025.4-qemu-amd64.7z"
+KALI_QEMU_URL  = "https://cdimage.kali.org/current/kali-linux-2026.1-qemu-amd64.7z"
 KALI_IMAGE_DIR = IMAGES_DIR / "kali"
 
 def download_image(url: str, dest_path: Path, label: str = "Downloading...") -> None:
